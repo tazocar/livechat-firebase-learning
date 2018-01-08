@@ -1,0 +1,25 @@
+
+.panel{
+  color: #FFF;
+  background-color: #00897b;
+  border-radius: 3px;
+  padding: 1em;
+  margin: 2em;
+  box-sizing: border-box;
+}
+h5{
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin: 0;
+  text-shadow: 1px 1px 1px #00563e;
+}
+p{
+  margin: 0.3em 1em;
+}
+.delete:hover{
+  color: #b2dfdb;
+  cursor: pointer;
+}
+nav{
+  margin-bottom: 2em;
+}

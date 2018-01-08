@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Live Chat</title>
+    <!-- google icon fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize -->
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav class="fixed-top teal darken-3">
+        <div class="nav-wrapper">
+          <div class="container container-flex">
+            <a href="" class="brand-logo center">Live Chat</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <form id="formulario">
+            <div class="input-field">
+              <input id="name" type="text" class="validate">
+              <label for="name">Nombre:</label>
+            </div>
+            <div class="input-field">
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Mensaje</label>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+            <i class="material-icons right">send</i>
+          </button>
+          </form>
+        </div>
+        <div class="col s12 m8">
+          <div class="panel" id="showHere">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Materialize -->
+    <script src="assets/js/materialize.min.js"></script>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
